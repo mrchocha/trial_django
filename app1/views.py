@@ -5,3 +5,7 @@ import os
 
 def home(request):
     return HttpResponse("hihhihih"+str(os.environ.get('ID')))
+
+
+def sec1(request):
+    return HttpResponse("inside sec1")
